@@ -1,0 +1,48 @@
+/* o * é um seletor universal, serve pra renderizar toda a página */
+
+* {
+    margin: 0; /*reduz o espaço entre as linhas da borda pra fora*/
+    padding: 0; /*aumenta o espaço entre as linhas da borda pra dentro*/
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header-content {
+    border: 4px solid red;
+    background-color: black;
+}
+
+.header {
+    border: 3px solid green;
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    
+}
+
+.header img{
+    width: 140px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.header ul{
+    border: 2px solid red;
+    display: inline-block;
+    padding-left: 50%;
+    position: absolute;
+    top: 45px;
+    right: 10%;
+}
+
+.header ul li{
+    display: inline-block;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 15px;
+}
