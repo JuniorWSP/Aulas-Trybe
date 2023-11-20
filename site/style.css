@@ -46,3 +46,41 @@ body {
     font-weight: 700;
     font-size: 15px;
 }
+
+.premium {
+    padding: 75px;
+    background-image: linear-gradient(blue, black, black);
+    color: white;
+}
+
+.premium-content{
+    width: 50%;    
+}
+
+.premiumu-content h1{
+    font-size: 35px;
+}
+
+.premimum p{
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.premium a{
+    color: white;
+}
+
+.premium p a{
+    color: white;
+}
+
+.premium h1, premium h2{
+    margin-bottom: 20px;
+}
+
+.premium-button{
+    display: inline-block;
+    padding: 15px 35px;
+    border-radius: 100px;
+    text-decoration: none;
+}
